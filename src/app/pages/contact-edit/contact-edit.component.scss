@@ -1,0 +1,22 @@
+.contact-edit {
+    margin: 0 auto;
+    max-width: 300px;
+    
+    >* {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .form-edit {
+        >* {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        input{
+            width: 300px;
+            font-size: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+
+<form (submit)="submit($event)" class="contact-filter">
+    <input type="text" name="term" placeholder="Type.." (change)="setFilter()" [(ngModel)]="filterBy.term"/>
+</form> 

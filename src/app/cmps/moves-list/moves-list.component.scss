@@ -1,0 +1,11 @@
+.move-list {
+    margin-top: 10px;
+    background-color: rgb(240, 231, 231);
+    padding: 15px;
+    border-radius: 5px;
+    .move {
+    }
+    &:focus {
+        outline: none;
+    }
+}

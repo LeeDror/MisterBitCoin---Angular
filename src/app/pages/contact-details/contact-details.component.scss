@@ -1,0 +1,11 @@
+.contant-details {
+    max-width: 400px;
+    text-align: left;
+    >* {
+        margin-top: 10px;
+    }
+    img {
+        border-radius: 50%;
+        background-color: rgb(229, 226, 226);
+    }
+}

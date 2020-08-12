@@ -1,0 +1,21 @@
+.app-header {
+    padding: 0 20px;
+    border-bottom: 2px solid darkgray;
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: -1.5px;
+        font-weight: 600;
+        span {
+          color: rgb(121, 147, 196);
+          font-weight: 800;
+        }
+    }
+    .nav {
+        a:hover {
+          color: rgb(118, 95, 201);
+        }
+        a:focus {
+          color: darkblue;
+        } 
+    }
+}

@@ -1,0 +1,7 @@
+<section class="home-page app-main" *ngIf="user">
+    <h2>HELLO {{user.name}} !</h2>
+    <p>Coins: {{user.coins}}</p>
+    <p>BTC: {{rate}}</p>
+    <moves-list [moves]="moves" [title]="'Your last 3 moves:'"></moves-list>
+    <router-outlet></router-outlet>
+</section>
